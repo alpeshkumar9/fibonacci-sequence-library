@@ -34,6 +34,15 @@ class Fibonacci:
 
     @logging_activity()
     def recursive(self):
+        """
+        Generates the Fibonacci sequence recursively.
+
+        This method uses a recursive algorithm to generate the Fibonacci sequence
+        up to the nth number.
+
+        Returns:
+            list: A list of integers representing the Fibonacci sequence.
+        """
 
         def _recurse(n):
             if n <= 0:
@@ -52,6 +61,15 @@ class Fibonacci:
 
     @logging_activity()
     def non_recursive(self):
+        """
+        Generates the Fibonacci sequence non-recursively.
+
+        This method uses an iterative approach to generate the Fibonacci
+        sequence up to the nth number.
+
+        Returns:
+            list: A list of integers representing the Fibonacci sequence.
+        """
 
         if self.n <= 0:
             return []
@@ -68,6 +86,15 @@ class Fibonacci:
 
     @logging_activity()
     def generator(self):
+        """
+        A generator that yields the Fibonacci sequence.
+
+        This method generates the Fibonacci sequence up to the nth number,
+        yielding each number one at a time.
+
+        Yields:
+            int: The next number in the Fibonacci sequence.
+        """
 
         a, b = 0, 1
         for _ in range(self.n):
