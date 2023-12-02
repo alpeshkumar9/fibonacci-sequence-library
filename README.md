@@ -27,11 +27,13 @@ pip install build
 python -m build
 ```
 
-To install the `fibonaccisequencelib` library use
+To install the `fibonaccisequencelib` library use.
 
 ```
 pip install dist/fibonaccisequencelib-0.1.0.tar.gz
 ```
+
+Replace `fibonaccisequencelib-0.1.0.tar.gz` package name with the one inside the `dist` folder if different.
 
 ## Usage
 
@@ -65,7 +67,7 @@ Fibonacci Generator:
 #### Importing the Library
 
 ```
-from fibonacci import Fibonacci
+from fibonaccisequencelib.fibonacci import Fibonacci
 ```
 
 #### Generating a Fibonacci Sequence
