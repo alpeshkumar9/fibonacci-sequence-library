@@ -1,3 +1,9 @@
+"""
+This module contains the Fibonacci class which provides methods for generating
+Fibonacci sequences. It offers a recursive method, a non-recursive method, and
+a generator method to produce sequences of Fibonacci numbers up to a specified length.
+"""
+
 from .utils import logging_activity
 
 
