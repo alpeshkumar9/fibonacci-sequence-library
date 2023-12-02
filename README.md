@@ -103,6 +103,7 @@ pytest -v
 ```
 
 In the terminal, the coverage percentage for each module or package that was tested will be shown.
+
 ![Screenshot 2023-12-02 at 4 26 28 pm](https://github.com/alpeshkumar9/fibonacci-sequence-library/assets/8064993/703ef14a-63d8-42ce-bb61-fcb1eb49aac6)
 
 ## License
