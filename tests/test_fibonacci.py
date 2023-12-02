@@ -94,8 +94,6 @@ class TestFibonacci(unittest.TestCase):
                         f"Finished function '{method_name}'" in log_msg for log_msg in log.output),
                     f"Log for the end of '{method_name}' method not found.")
 
-        # Repeat for non_recursive and generator if needed
-
 
 if __name__ == "__main__":
     unittest.main()
