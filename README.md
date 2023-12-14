@@ -1,4 +1,4 @@
-# Fibonacci Sequence Library
+# Fibonacci Sequence Python Library
 
 ## Introduction
 
